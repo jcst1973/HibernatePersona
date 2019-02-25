@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="pruebashibernate">
+
+    <class name="Persona" table="evefveve">
+        <id name="id" column="iwdcwdd">
+            <generator class="increment"/>
+        </id>
+        <property name="nombre" column="gjhgjhg" type="string"/>
+        <property name="apellido" column="kihkjhkjh"  type="string"/>
+        <property name="email" column="wdcsfewg" type="string"/>
+    </class>
+
+</hibernate-mapping>
+    
